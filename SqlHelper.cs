@@ -16,6 +16,12 @@ namespace BookDAL
     /// </summary> 
     public sealed class SqlHelper 
     { 
+	#region 测试Git的修改提交
+		private void Test()
+		{
+			
+		}
+	#endregion
         #region 私有构造函数和方法
 
         private SqlHelper() { }
