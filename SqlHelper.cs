@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Collections; 
 using System.Configuration;
 
-//我在试一试这个功能GitHub哈哈
+
 //1、引用此sqlhelper后修改命名空间。
 //2、如果要获取连接数据连接对象或字符串的话，先要修改SQLHelper类中GetConnSting() 方法中的//ConfigurationManager.ConnectionStrings["ConStr"].ConnectionString;才能调用。
 namespace BookDAL 
@@ -21,9 +21,7 @@ namespace BookDAL
         private SqlHelper() { }
 
 		
-		private void Test(){
-			MessageBox("我就是测试的一会删了就行了！");
-		}
+		
         /// <summary> 
         /// 将SqlParameter参数数组(参数值)分配给SqlCommand命令. 
         /// 这个方法将给任何一个参数分配DBNull.Value; 
