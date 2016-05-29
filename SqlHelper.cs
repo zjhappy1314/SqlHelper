@@ -5,7 +5,6 @@ using System.Data.SqlClient;
 using System.Collections; 
 using System.Configuration;
 
-//本地电脑的测试调用，并没有什么实际的意义。
 
 //1、引用此sqlhelper后修改命名空间。
 //2、如果要获取连接数据连接对象或字符串的话，先要修改SQLHelper类中GetConnSting() 方法中的//ConfigurationManager.ConnectionStrings["ConStr"].ConnectionString;才能调用。
